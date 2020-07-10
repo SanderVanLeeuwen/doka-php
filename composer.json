@@ -1,0 +1,5 @@
+{
+  "name": "sandervanleeuwen/doka-php",
+  "type": "library",
+  "description": "A image manipulation library to apply Doka and FilePond image transform information on the server instead of on the client."
+}
