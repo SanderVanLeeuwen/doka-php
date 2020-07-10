@@ -1,6 +1,6 @@
 <?php
 
-namespace Doka;
+namespace Doka\Helper;
 
 const IMAGE_TYPES = [
     'image/jpeg' => IMAGETYPE_JPEG,

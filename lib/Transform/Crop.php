@@ -1,19 +1,9 @@
 <?php
 
-namespace Doka;
+namespace Doka\Transform;
+use Doka\Helper\Vector;
 
-require_once __DIR__ . '/../Helper/Vector.class.php';
-
-class Flip {
-    public $horizontal;
-    public $vertical;
-    public function __construct($horizontal = false, $vertical = false) {
-        $this->horizontal = $horizontal;
-        $this->vertical = $vertical;
-    }
-}
-
-class CropTransform {
+class Crop {
     public $center;
     public $zoom;
     public $rotation;

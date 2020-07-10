@@ -1,6 +1,6 @@
 <?php
 
-namespace Doka;
+namespace Doka\Helper;
 
 class Rect {
 

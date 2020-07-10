@@ -1,8 +1,8 @@
 <?php
 
-namespace Doka;
+namespace Doka\Transform;
 
-class ResizeTransform {
+class Resize {
     public $width;
     public $height;
     public $mode;

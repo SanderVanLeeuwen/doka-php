@@ -1,5 +1,10 @@
 {
   "name": "sandervanleeuwen/doka-php",
   "type": "library",
-  "description": "A image manipulation library to apply Doka and FilePond image transform information on the server instead of on the client."
+  "description": "A image manipulation library to apply Doka and FilePond image transform information on the server instead of on the client.",
+  "autoload": {
+    "psr-4": {
+      "Doka\\": "lib"
+    }
+  }
 }

@@ -2,13 +2,13 @@
 
 namespace Doka;
 
-require_once('Helper/Image.class.php');
-require_once('Helper/Vector.class.php');
-require_once('Helper/Rect.class.php');
+require_once('Helper/Image.php');
+require_once('Helper/Vector.php');
+require_once('Helper/Rect.php');
 require_once('Helper/Utils.php');
 
-require_once('Transform/Crop.class.php');
-require_once('Transform/Resize.class.php');
+require_once('Transform/Crop.php');
+require_once('Transform/Resize.php');
 
 function arg_object_to_array($arg) {
     if (is_object($arg)) {
