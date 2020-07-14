@@ -2,6 +2,16 @@
 
 namespace Doka\Helper;
 
+/**
+ * Class Rect
+ * @package Doka\Helper
+ *
+ * @property $x
+ * @property $y
+ * @property $width
+ * @property $height
+ * @property Vector $center
+ */
 class Rect {
 
     private $x;

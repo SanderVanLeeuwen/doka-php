@@ -2,6 +2,13 @@
 
 namespace Doka\Helper;
 
+/**
+ * Class Vector
+ * @package Doka\Helper
+ *
+ * @property $x
+ * @property $y
+ */
 class Vector {
 
     private $x;
